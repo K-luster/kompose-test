@@ -16,3 +16,5 @@ services:
     environment:
       MYSQL_DATABASE: wordpress
       MYSQL_ROOT_PASSWORD: password
+    ports:
+      - "3306:3306"
